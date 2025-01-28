@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+}
+
+img{
+    height: 65px !important;
+    width: 65px !important;
+}
+
+h1{
+    color: white !important;
+}

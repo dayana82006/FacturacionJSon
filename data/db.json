@@ -1,0 +1,53 @@
+{
+    "facturas": [
+      {
+        "id": 1,
+        "numero_factura": "abc12345",
+        "fecha": "2025-01-28",
+        "comprador": {
+          "nombre": "Juan Pérez",
+          "documento_identidad": "12345678",
+          "direccion": "Av. Siempre Viva 123",
+          "telefono": "+34123456789",
+          "email": "juan.perez@email.com"
+        },
+        "productos": [
+          {
+            "id": 101,
+            "nombre": "Laptop",
+            "cantidad": 1,
+            "precio_unitario": 800,
+            "subtotal": 800
+          },
+          {
+            "id": 102,
+            "nombre": "Mouse",
+            "cantidad": 2,
+            "precio_unitario": 25,
+            "subtotal": 50
+          }
+        ],
+        "subtotal": 850,
+        "iva": 170,
+        "total": 1020,
+        "estado": "pagada"
+      }
+    ],
+    "productos": [
+      {
+        "id": 101,
+        "nombre": "Laptop",
+        "descripcion": "Laptop de 15 pulgadas, procesador i7",
+        "precio_unitario": 800,
+        "imagen": "https://example.com/images/laptop.jpg"
+      },
+      {
+        "id": 102,
+        "nombre": "Mouse",
+        "descripcion": "Mouse óptico inalámbrico",
+        "precio_unitario": 25,
+        "imagen": "https://example.com/images/mouse.jpg"
+      }
+    ]
+  }
+  
